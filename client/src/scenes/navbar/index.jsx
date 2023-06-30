@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <FlexBetween className="navbar" padding="1rem 6%" >
 
-      <FlexBetween className="tyu"> <Typography fontSize= "15px"> <a className="vuj" href="https://main--stackoverflow-prashant.netlify.app/" color="orange">Back to main</a> </Typography></FlexBetween>
+      <FlexBetween className="tyu"> <Typography fontSize= "15px"> <a className="vuj" href="https://stackovrflowclonebyprashant.netlify.app/" color="orange">Back to main</a> </Typography></FlexBetween>
       <FlexBetween gap="1.75rem" className="thod">
         <Typography
           fontWeight="bold"
