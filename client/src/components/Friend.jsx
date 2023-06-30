@@ -22,7 +22,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-        `https://socialmediaoverflow.onrender.com/users/${_id}/${friendId}`,
+        `https://localhost:30001/users/${_id}/${friendId}`,
         {
           method: "PATCH",
           headers: {
