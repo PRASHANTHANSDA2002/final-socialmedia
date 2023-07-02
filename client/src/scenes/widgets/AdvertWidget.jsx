@@ -12,7 +12,7 @@ const AdvertWidget = () => {
     <WidgetWrapper>
       <FlexBetween>
         <Typography color={dark} variant="h5" fontWeight="500">
-          Sponsored
+          Visit 
         </Typography>
         <Typography color={medium}>Create Ad</Typography>
       </FlexBetween>
@@ -20,16 +20,15 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="https://socialmediaoverflow.onrender.com/assets/info4.jpeg"
+        src="http://localhost:3001/assets/info5.jpg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>
-        <Typography color={main}>MikaCosmetics</Typography>
-        <Typography color={medium}>mikacosmetics.com</Typography>
+        <Typography color={main}>Nullclass</Typography>
+        <Typography color={medium}><a href="https://nullclass.com/">Nullclass.com</a></Typography>
       </FlexBetween>
       <Typography color={medium} m="0.5rem 0">
-        Your pathway to stunning and immaculate beauty and made sure your skin
-        is exfoliating skin and shining like light.
+      NullClass brings you an opportunity full of knowledge-packed industry-based real-time projects. Learn from scratch and earn at the same time. 
       </Typography>
     </WidgetWrapper>
   );
