@@ -15,7 +15,7 @@ const ProfilePage = () => {
   const isNonMobileScreens = useMediaQuery("(min-width:1000px)");
 
   const getUser = async () => {
-    const response = await fetch(`https://socialmediaoverflow.onrender.com/users/${userId}`, {
+    const response = await fetch(`https://socialmediaoverflow.onrender.com/users/${userId}`,  {
       method: "GET",
       headers: { Authorization: `Bearer ${token}` },
     });
@@ -58,3 +58,4 @@ const ProfilePage = () => {
 };
 
 export default ProfilePage;
+
